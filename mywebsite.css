@@ -512,7 +512,10 @@ display:none;
 }
 
 @media(max-width:580px){
-.home{
+*{
+    overflow-y:hidden;
+}
+    .home{
 width: 100vw;
 height: 50vh;
 
