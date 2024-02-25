@@ -502,9 +502,7 @@ width: 775px;
 }
 
 .email{
-position: absolute;
-top: 1570px;
-left: 35px;
+display:none;
 }
 
 
@@ -515,12 +513,12 @@ left: 35px;
 
 @media(max-width:580px){
 .home{
-width: 580px;
+width: 100vw;
 height: 50vh;
 
 }
 .about{
-    width: 580px;
+    width: 100vw;
     height: 50vh;
     
     }
@@ -530,11 +528,21 @@ height: 50vh;
         
         }
         .project{
-            width: 580px;
+            width: 100vw;
             height: 50vh;
             
             }
-        
+         .nav{
+            width: 100vw;
+            height: 30px;
+            
+            } 
+    .skill{
+            width: 100vw;
+            height: 50vh;
+            
+            }
+    
     .logo{
 
     display: none;
